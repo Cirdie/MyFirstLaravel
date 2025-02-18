@@ -1,0 +1,124 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the split-screen layout */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.bg-login {
+    background-color: #000000 !important; /* Change to your preferred color */
+}
+
+
+/* Left section with background image */
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: left;
+    padding: 40px;
+    position: relative;
+}
+
+.overlay {
+    max-width: 400px;
+}
+
+/* Small dot decoration */
+.dot {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Right section with login form */
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+/* Login form container */
+.login-form {
+    width: 300px;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.small-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.login-form a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Input fields */
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Google and Twitter buttons */
+.google {
+    background: #db4437;
+    color: white;
+}
+
+.twitter {
+    background: #1da1f2;
+    color: white;
+}
+
+/* Sign-in button */
+.submit {
+    background: #ccc;
+}
+
+/* Divider text */
+.divider {
+    margin: 20px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Forgot password link */
+.forgot-password {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
